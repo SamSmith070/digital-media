@@ -6,13 +6,38 @@
 <title>my index page</title>
 <style>
 
+#somestuff {
+  color: #8218FA;
+}
+.Bing {
+  color: #8218FA;
+}
+
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: pink;
+  background: green;
+  padding:10px;
+}
+
 body {
   background: #FCA328;
   color: black;
 }
 h1 {
-  color: black;
+  color: #800BE3;
 }
+h2 {color:black}
 
 a {
   color: white;
@@ -37,7 +62,15 @@ a:active{
 
 <body>
 <h1> Hello world, I am Sam.</h1>
-<p>I know you're in need of good advice.</p>
-<p><a href="dummy.html">click here for the advice you need</a></p>
+<h2 id="somestuff">I know you're in need of good advice.</h2>
+<p class="Bing"> You know you want to...
+
+<ul>
+<li><a href="dummy.html">click here for the advice you need</a></li>
+<li><a href="#">click here for advice you possibly need</a></li>
+<li><a href="#">click here for advide you don't need</a></li>
+</ul>
+
+
 </body>
 </html>
