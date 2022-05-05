@@ -3,42 +3,84 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>For Cole</title>
-</head>
-<body>
+<title>boxes.html</title>
 <style>
 body{
   background: #C1E9AA;
   color: #ff5050;
 }
-h1 {
-  color: #ff5050;
-  font-family:SignPainter;
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-a {
+#box1 {
+  background: pink;
+  color: black;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  border: 10px solid white;
+  margin-bottom: 100px;
+}
+
+#box2 {
+  background: pink;
+  color: black;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  border: 10px solid white;
+  margin-bottom: 100px;
+}
+
+#box3 {
+  background: brown;
   color: white;
-  background-image: linear-gradient(to right, #6cd46a 0%, #b6d46a 100%);
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid #7F95D1;
-  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  border: 10px solid white;
 }
 
-a:hover{
-  font-family:SignPainter;
+#box4 {
   background: linear-gradient(to right, #ff9999 0%, #5fd492 100%);
-  color: #ff5050;
-}
-
-a:active{
-  background: #339966;
+  color: white;
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  border: 10px solid pink;
 }
 
 </style>
 </head>
-<h1>Click below for a suprise</h1>
-<p><a href="https://www.1800flowers.com/flowers-gifts-02022021?r=newengengoobrcore&adcampaign=NE_18F_Branded-Core_D_E&adcampaignid=10979175005&adgroupid=108611761435&adid=460189510207&adtype=text&kw=1800%20flowers&matchtype=e&addisttype=g&gclid=CjwKCAjwsJ6TBhAIEiwAfl4TWGpWz97rl6za8aQMm2q2MGpjYnkUMYmtcQ6ortM5HWg2MvEHdYIpqRoC3GwQAvD_BwE">click here</a></p>
+
+<body>
+<h1>box pages</h1>
+<div id="box1">
+<p>some stuffy stuff</p>
+<p>some stuffy stuff</p>
+<p>some stuffy stuff</p>
+<p>some stuffy stuff</p>
+</div>
+
+<div id="box2">
+<p>whoooo</p>
+<p>whoooo</p>
+<p>whoooo</p>
+<p>whoooo</p>
+</div>
+
+<div id="box3">
+<p>fhsiufhafeuwHEWUHU</P>
+</div>
+
+<div id="box4">
+<p>UwU UwU UwU UwU Owo</P>
+</div>
 
 </body>
 </html>
